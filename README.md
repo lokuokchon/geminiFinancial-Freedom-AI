@@ -18,6 +18,24 @@ This project encapsulates the "Financial Freedom AI V1.0" quantitative trading s
 - **Dynamic Risk Control**: ATR (Average True Range) based dynamic stop loss and black swan protection.
 - **Compensatory Position Management**: Dynamically adjusts position sizing based on total account loss to optimize risk/reward.
 
+## Installation in OpenClaw
+
+To use this SKILL in OpenClaw, you can install it using one of the following methods:
+
+### Method 1: Git Installation (Recommended)
+1. Open your OpenClaw terminal or configuration.
+2. Run the following command to add this skill:
+   ```bash
+   openclaw skill add https://github.com/lokuokchon/geminiFinancial-Freedom-AI.git
+   ```
+
+### Method 2: Manual Installation
+1. Clone this repository into your OpenClaw `skills` directory:
+   ```bash
+   git clone https://github.com/lokuokchon/geminiFinancial-Freedom-AI.git
+   ```
+2. Restart OpenClaw or refresh the skill list.
+
 ## How to Use
 1. Ensure Python 3.x is installed.
 2. Before making trading decisions, refer to the technical indicator requirements in `references/strategy_logic.md`.
